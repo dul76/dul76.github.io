@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promo Code</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Masukkan Kode Promo</h1>
+        <input type="text" id="promoCode" placeholder="Masukkan kode promo">
+        <button id="redeemButton">Redeem</button>
+        <div id="message"></div>
+        <h2>Balance Anda: <span id="balance">0</span> poin</h2>
+        <button id="withdrawButton">Withdraw</button>
+        <div id="withdrawSection" class="hidden">
+            <input type="text" id="walletAddress" placeholder="Masukkan wallet address">
+            <button id="confirmWithdrawButton">Konfirmasi Withdraw</button>
+            <div id="withdrawMessage"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
